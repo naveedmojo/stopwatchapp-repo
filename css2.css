@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('./night.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    max-width: 60%;
+    margin:auto;
+    margin-top: 20vh;
+    
+}
+.Title > h3{
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    display: none;
+   
+
+
+}
+span{
+    font-size: 6vh;
+    font-family: cursive;
+    color:aqua;
+    display:inline-block;
+}
+.displaywrapper{
+    width:auto;
+    text-align: center;  
+    padding: 4px;
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+span > h4{
+text-align: center;
+font-size: 1em;
+padding: 6px;
+text-shadow: 0 0 7px #fff,
+0 0 10px aqua,0 0 21px aqua,0 0 42px aqua,
+0 0 82px aqua;
+color: whitesmoke;
+}
+input[type=button]{
+    margin: 15px;
+    padding: 10px;
+    border-radius:10px;
+    border:none;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color:#1183ca;
+    color: white;
+    font-style: italic;
+    width: 80px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    opacity: 68%;
+}
+.buttons{
+    margin-top: 15px;
+    box-sizing: border-box;
+    width:500px;
+}
